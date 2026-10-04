@@ -1,6 +1,9 @@
 {
   "name": "laporan-modul-4",
   "private": true,
+  "workspaces": [
+    "gunshop-modul4-kel13"
+  ],
   "scripts": {
     "dev": "npm --prefix gunshop-modul4-kel13 run dev",
     "build": "npm --prefix gunshop-modul4-kel13 run build",

@@ -1,0 +1,9 @@
+{
+  "name": "laporan-modul-4",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix gunshop-modul4-kel13 run dev",
+    "build": "npm --prefix gunshop-modul4-kel13 run build",
+    "preview": "npm --prefix gunshop-modul4-kel13 run preview"
+  }
+}

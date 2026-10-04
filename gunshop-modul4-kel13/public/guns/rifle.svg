@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="rifle-body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e2530" />
+      <stop offset="60%" stop-color="#2d3748" />
+      <stop offset="100%" stop-color="#1a202c" />
+    </linearGradient>
+    <linearGradient id="rifle-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#334155" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="wood-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#935123" />
+      <stop offset="100%" stop-color="#693411" />
+    </linearGradient>
+    <filter id="soft-shadow-rifle" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#0b0f14" flood-opacity="0.18" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="240" height="180" fill="#f4f6f8" rx="6" />
+  <circle cx="120" cy="90" r="68" fill="none" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+
+  <g filter="url(#soft-shadow-rifle)">
+    <!-- Buttstock -->
+    <path d="M 24 74 
+             C 26 73, 34 78, 48 80 
+             L 70 82 
+             L 70 94 
+             L 50 97 
+             L 28 116 
+             C 25 118, 22 116, 22 112 
+             L 22 76 
+             C 22 74, 23 74, 24 74 Z" 
+          fill="url(#rifle-dark)" stroke="#0f172a" stroke-width="1.2" />
+    <!-- Stock Pad Ribs -->
+    <line x1="26" y1="78" x2="26" y2="112" stroke="#475569" stroke-width="1.5" />
+    <path d="M 36 85 L 56 86 L 52 94 L 34 92 Z" fill="#18202a" opacity="0.6" />
+
+    <!-- Buffer Tube / Stock Strut -->
+    <rect x="70" y="83" width="14" height="9" fill="#334155" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Upper & Lower Receiver -->
+    <path d="M 84 76 
+             L 132 76 
+             L 132 94 
+             L 125 94 
+             L 122 101 
+             L 106 101 
+             L 104 96 
+             L 94 96 
+             L 84 94 Z" 
+          fill="url(#rifle-body)" stroke="#0f172a" stroke-width="1.2" />
+
+    <!-- Top Picatinny Rail & Optical/Iron Sight -->
+    <rect x="88" y="72" width="46" height="4" fill="#1e293b" />
+    <!-- Rear Sight -->
+    <polygon points="90,72 94,66 98,72" fill="#334155" />
+    <!-- Optic / Red Dot Sight -->
+    <path d="M 103 72 L 105 64 L 123 64 L 125 72 Z" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+    <circle cx="114" cy="68" r="3.5" fill="#0f172a" />
+    <circle cx="114" cy="68" r="1.5" fill="#ef4444" />
+
+    <!-- Ejection Port / Bolt Carrier -->
+    <rect x="100" y="78" width="16" height="6" rx="1" fill="#0f172a" />
+    <rect x="102" y="79" width="12" height="4" fill="#64748b" />
+
+    <!-- Pistol Grip -->
+    <path d="M 84 94 
+             L 94 95 
+             L 86 128 
+             C 85 131, 83 132, 80 131 
+             L 72 128 
+             C 70 127, 70 125, 71 123 
+             L 78 98 Z" 
+          fill="url(#rifle-dark)" stroke="#0f172a" stroke-width="1.2" />
+    <line x1="77" y1="108" x2="87" y2="108" stroke="#1e293b" stroke-width="1.2" />
+    <line x1="75" y1="114" x2="85" y2="114" stroke="#1e293b" stroke-width="1.2" />
+    <line x1="73" y1="120" x2="83" y2="120" stroke="#1e293b" stroke-width="1.2" />
+
+    <!-- Trigger Guard & Trigger -->
+    <path d="M 94 96 C 94 107, 105 107, 105 97" fill="none" stroke="#1e293b" stroke-width="2.5" />
+    <path d="M 98 97 C 98 102, 102 103, 101 105" fill="none" stroke="#a67c2e" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Magazine (Curved Bananastyle Mag) -->
+    <path d="M 106 98 
+             L 122 98 
+             L 126 126 
+             C 126 135, 122 142, 116 145 
+             L 104 142 
+             C 100 141, 100 137, 102 133 
+             L 106 98 Z" 
+          fill="#1e2530" stroke="#0f172a" stroke-width="1.2" />
+    <!-- Magazine Ribs -->
+    <line x1="107" y1="108" x2="121" y2="109" stroke="#334155" stroke-width="1.2" />
+    <line x1="106" y1="116" x2="122" y2="118" stroke="#334155" stroke-width="1.2" />
+    <line x1="105" y1="124" x2="123" y2="127" stroke="#334155" stroke-width="1.2" />
+    <line x1="104" y1="132" x2="121" y2="136" stroke="#334155" stroke-width="1.2" />
+
+    <!-- Handguard / Barrel Shroud -->
+    <rect x="132" y="78" width="50" height="15" rx="1.5" fill="url(#rifle-body)" stroke="#0f172a" stroke-width="1.2" />
+    <!-- Cooling Vents -->
+    <rect x="136" y="81" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="148" y="81" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="160" y="81" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="172" y="81" width="6" height="3" rx="1" fill="#0f172a" />
+    <rect x="136" y="87" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="148" y="87" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="160" y="87" width="8" height="3" rx="1" fill="#0f172a" />
+    <rect x="172" y="87" width="6" height="3" rx="1" fill="#0f172a" />
+
+    <!-- Exposed Barrel & Gas Block -->
+    <rect x="182" y="83" width="26" height="5" fill="#334155" stroke="#0f172a" stroke-width="0.8" />
+    <!-- Front Sight Post -->
+    <polygon points="184,83 186,70 190,70 193,83" fill="#1e293b" stroke="#0f172a" stroke-width="1" />
+    <line x1="188" y1="70" x2="188" y2="76" stroke="#fff" stroke-width="1.5" />
+
+    <!-- Muzzle / Flash Hider -->
+    <path d="M 208 81 L 216 81 L 217 84 L 217 87 L 216 90 L 208 90 Z" fill="#1e2530" stroke="#0f172a" stroke-width="1" />
+    <line x1="211" y1="83" x2="214" y2="83" stroke="#475569" stroke-width="1" />
+    <line x1="211" y1="88" x2="214" y2="88" stroke="#475569" stroke-width="1" />
+  </g>
+</svg>
